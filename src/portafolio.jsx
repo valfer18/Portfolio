@@ -144,7 +144,7 @@ export default function Portfolio() {
           .hero-text  { max-width: 100% !important; text-align: center; }
           .hero-text .chips { justify-content: center; }
           .hero-text .cta   { justify-content: center; }
-          .hero-photo { width: 260px !important; height: 260px !important; }
+          .hero-photo { width: 260px !important; height: 260px !important; margin-top: 10%; }
           .contact-grid { grid-template-columns: 1fr !important; }
         }
         @media (max-width: 640px) {
@@ -163,6 +163,7 @@ export default function Portfolio() {
         minHeight: "100vh", width: "100%",
         display: "flex", alignItems: "center",
         padding: "10% 10% 10%", background: "#f8faff",
+        marginTop: 64,
         position: "relative", overflow: "hidden",
       }}>
         <div style={{ position: "absolute", width: 500, height: 500, borderRadius: "50%", right: -120, top: -120, background: "radial-gradient(circle, rgba(124,92,191,0.12) 0%, transparent 70%)", pointerEvents: "none" }} />
@@ -209,7 +210,7 @@ export default function Portfolio() {
 
           {/* Foto */}
           <div style={{ flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
-            <div style={{ position: "absolute", width: 320, height: 360, background: "linear-gradient(135deg, rgba(42,110,245,0.12), rgba(124,92,191,0.15))", borderRadius: "60% 40% 55% 45% / 50% 60% 40% 50%", zIndex: 0 }} />
+            <div style={{ position: "absolute", width: 320, height: 360 }} />
             <img
               src="/Foto Vale CV.jpg"
               alt="Valeria Fernández Jiménez"
