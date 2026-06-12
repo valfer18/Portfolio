@@ -206,13 +206,6 @@ export default function Portfolio() {
       display: "flex", alignItems: "center", justifyContent: "center",
       marginRight: 50,
     }}>
-      {/* Blob decorativo detrás de la foto */}
-      <div style={{
-        position: "absolute", width: 340, height: 380,
-        background: "linear-gradient(135deg, rgba(42,110,245,0.12), rgba(124,92,191,0.15))",
-        borderRadius: "60% 40% 55% 45% / 50% 60% 40% 50%",
-        zIndex: 0,
-      }} />
 
       <img
         src="/Foto Vale CV.jpg"
