@@ -185,7 +185,7 @@ export default function Portfolio() {
 
       <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 48 }}>
         <a
-          href="/src/assets/CV_Valeria_Fernandez_Jimenez.pdf"
+          href="/public/CV_Valeria_Fernandez_Jimenez.pdf"
           download="CV_Valeria_Fernandez_Jimenez.pdf"
           className="btn-fill"
           style={{ textDecoration: "none" }}
@@ -215,7 +215,7 @@ export default function Portfolio() {
       }} />
 
       <img
-        src="/src/assets/Foto Vale CV.jpg"
+        src="/public/Foto Vale CV.jpg"
         alt="Valeria Fernández Jiménez"
         style={{
           position: "relative", zIndex: 1,
@@ -276,7 +276,7 @@ export default function Portfolio() {
       </section>
 
       {/* ── FOOTER ────────────────────────────────────────────── */}
-      <footer style={{ background: "#2a6ef5", color: "#94a3b8", textAlign: "center", padding: "32px 6%", display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
+      <footer style={{ background: "#2a6ef5", color: "#9da8b8", textAlign: "center", padding: "32px 6%", display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
         <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 24, color: "#fff", letterSpacing: -0.5 }}>
           Valeria Fernández Jiménez<span style={{ color: "#a9dfff" }}>.</span>
         </div>
@@ -350,14 +350,14 @@ function ProjectCard({ img, tags, title, desc, links }) {
 
 const projects = [
   {
-    img: "/src/assets/Femsafe.png",
+    img: "/public/Femsafe.png",
     tags: [{ label: "React", color: "purple" }, { label: "Tailwind", color: "purple" }, {label: "TypeScript", color: "purple"}],
     title: "FemSafe",
     desc: "FemSafe is a mobile app designed to help keep women safe; you can search for safe places, support centers, and dangerous areas.",
     links: [{ icon: "ti-brand-github", label: "Github", href: "https://github.com/tamib0ke/FemSafe.git" }, { icon: "ti-video", label: "App Video", href: "https://6f33fa7f78ea46e2aaca-my.sharepoint.com/:v:/g/personal/valeria_fernandezjimenez_ucr_ac_cr/IQDNaV_CTfWyTKHZW42GE34TAQJ7z4Xg-VFmkaLX91QeJos?e=2mDz7H" }],
   },
   {
-    img: "/src/assets/SweetHoney.png",
+    img: "/public/SweetHoney.png",
     tags: [{ label: "PHP", color: "blue" }, { label: "JavaScript", color: "blue" }, { label: "SCSS", color: "blue" }, {label: "HTML", color: "blue"}],
     title: "Sweet Honey",
     desc: "Sweet Honey is a platformer game designed for children, where they can join Izzy the little bee on her adventure.",
@@ -365,7 +365,7 @@ const projects = [
   },
 
   {
-    img: "/src/assets/Puramente.png",
+    img: "/public/Puramente.png",
     tags: [{ label: "React", color: "green" }, { label: "PHP", color: "green" }, { label: "Blade", color: "green" }],
     title: "Puramente",
     desc: "Puramente is an educational app designed to enhance the learning process for school-age children through games. " +
